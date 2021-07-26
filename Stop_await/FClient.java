@@ -51,20 +51,19 @@ public class FClient {
 					Integer.parseInt(args[1])
 				);
 
-				if (reply.trim().endsWith("END")){
-					end = true;
-					cs.send(sp);
-					break;
-				}
-
 				if (Math.random() > LOSS_RATE){
-					cs.send(sp);
+						cs.send(sp);
 				}else{
 					System.out.println("Client not send acknowledgement");
 				}
 
+				if (reply.trim().endsWith("END")){
+					end = true;
+					break;
+				}
+
 				if (reply.equals(pastReply)==true){
-					continue;
+						continue;
 				}
 				pastReply=reply;
 
