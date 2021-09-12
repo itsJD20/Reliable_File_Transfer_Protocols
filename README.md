@@ -1,4 +1,4 @@
-# CN_Lab_Project
+# Reliable File Transfer Protocols
 
 - Debayan Ganguly - [`LoopThrough-i-j`](https://github.com/LoopThrough-i-j)
 - Joyatee Datta   - [`joyatee-datta-2020`](https://github.com/joyatee-datta-2020)
